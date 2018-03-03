@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:padding="20dp">
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/su_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Startup Name"
+                android:textSize="25dp"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:layout_margin="5dp" />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/su_website"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Website"
+                android:padding="10dp"
+                android:layout_margin="5dp" />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/su_location"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Startup Location"
+                android:padding="10dp"
+                android:layout_margin="5dp" />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/su_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email ID"
+                android:padding="10dp"
+                android:layout_margin="5dp" />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/su_mobile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Mobile No."
+                android:padding="10dp"
+                android:layout_margin="5dp" />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/su_skill"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Skill Preference"
+                android:padding="10dp"
+                android:layout_margin="5dp" />
+        </android.support.design.widget.TextInputLayout>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="About Startup"
+            android:background="@drawable/text_edit"
+            android:padding="10dp"
+            android:layout_margin="5dp"
+            android:id="@+id/su_about" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Without Stipend Highlights :-\n1. Only virtual Internship allowed\n2. Duration will be only 1 month"
+            android:textColor="#ff0000"
+            android:background="#ffe2e2"
+            android:padding="10dp"
+            android:layout_margin="5dp"/>
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:textColor="@color/white"
+            android:background="@color/blue_light"
+            android:layout_gravity="center_horizontal"
+            android:padding="10dp"
+            android:layout_margin="5dp"
+            android:id="@+id/st_submit"/>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:background="@color/white">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REGISTRATION"
+        android:textSize="25dp"
+        android:textColor="@color/blue_light"
+        android:background="@drawable/text_title"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:layout_margin="5dp"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:src="@drawable/img_steps"
+        android:padding="10dp"
+        android:layout_margin="5dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Payment"
+        android:textSize="40dp"
+        android:textColor="#00a6ff"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rs 400"
+        android:textSize="20dp"
+        android:textColor="#0080c4"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+        android:layout_marginBottom="10dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:src="@drawable/img_paytm"
+            android:background="@drawable/text_payment"
+            android:padding="10dp"
+            android:layout_margin="5dp"
+            android:clickable="true"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:src="@drawable/img_instamojo"
+            android:background="@drawable/text_payment"
+            android:padding="10dp"
+            android:layout_margin="5dp"
+            android:clickable="true"/>
+    </LinearLayout>
+
+</LinearLayout>
